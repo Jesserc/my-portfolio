@@ -1,0 +1,252 @@
+
+
+*{
+    font-family: poppins;
+}
+
+body {
+  background-color: rgb(2, 2, 61);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  padding: 10px;
+}
+header h1 {
+  flex: 1;
+  font-size: 20px;
+  color: white;
+  margin-left: 90px;
+}
+.red-color {
+  color: crimson;
+}
+
+a .red-color:hover {
+  color: white;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-right: 50px;
+}
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: crimson;
+  cursor: pointer;
+}
+button {
+  background: none;
+  color: crimson;
+  border: 1.5px solid crimson;
+  border-radius: 2px;
+  padding: 7px 10px;
+}
+button:hover {
+  border-color: white;
+  cursor: pointer;
+}
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+button a:visited{
+  color: white;
+}
+.btn {
+  margin-right: 90px;
+}
+
+#profile {
+  color: crimson;
+  width: fit-content;
+  margin: auto;
+background-color: rgb(2, 2, 61);
+  margin-top: 100px;
+  margin-bottom: 40vh;
+}
+
+#profile img {
+  border-radius: 100%;
+  margin-left: 90px;
+  width: 100px;
+}
+
+#profile h1 {
+  font-size: 40px;
+
+}
+
+#profile h4 {
+  color: white;
+}
+
+#about {
+  display: flex;
+  color: white;
+  padding: 18vh 50px ;
+  background-color:  rgb(26, 26, 66);
+}
+
+#about img {
+  width: 360px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.discover {
+  color: crimson;
+}
+
+.discover h5 {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+.discover h1 {
+  margin-top: 0;
+  color: white;
+  margin-bottom: 0;
+}
+
+.underline {
+  background-color: crimson;
+  width: 40px;
+  height: 2px;
+}
+
+.discover p {
+  color: white;
+  text-align: left;
+}
+
+.details {
+  display: flex;
+  border: 0.5px solid rgb(128, 47, 63);
+
+  border-radius: 2px;
+}
+
+.details ul {
+  list-style: none;
+  color: white;
+}
+
+.details ul li {
+  padding: 10px;
+}
+
+.details-content-one {
+  flex: 2;
+  padding-left: 15px;
+}
+
+.details-content-two {
+  padding-right: 100px;
+}
+
+.cv {
+  margin-top: 25px;
+}
+.cv button {
+  color: white;
+  background-color: crimson;
+  padding: 10px 20px 6px 20px;
+}
+
+.cv button:hover {
+  background-color: white;
+  color: crimson;
+  cursor: pointer;
+}
+
+#services {
+  color: white;
+  background-color: rgb(2, 2, 61);
+  padding: 25vh 80px;
+}
+
+#services h4 {
+  color: crimson;
+  margin: 0;
+}
+
+#services h1 {
+  margin-bottom: 0;
+  margin-top: 4px;
+}
+
+.services-heading {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.my-underline {
+  background-color: crimson;
+  width: 40px;
+  height: 2px;
+  margin-top: 1.5px;
+}
+
+.my-services {
+  display: flex;
+}
+
+.my-services div {
+  border: 1px solid rgb(114, 43, 57);
+  margin-right: 30px;
+  padding: 15px 15px;
+  width: 500px;
+  height: 140px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.my-services div h3 {
+  color: crimson;
+}
+
+#contact{
+color: white;
+padding: 50px;
+background-color: rgb(26, 26, 66);
+
+}
+
+
+
+
+#contact h3 {
+    color: crimson;
+    margin: 0;
+  }
+  
+  #contact h1 {
+    margin-bottom: 0;
+    margin-top: 4px;
+  }
+  
+footer{
+  color: white;
+ width: 100%;
+  margin: auto;
+background-color: rgb(26, 26, 66);
+padding: 30px;
+padding-left: 35%;
+}
